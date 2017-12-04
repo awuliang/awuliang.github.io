@@ -1,0 +1,51 @@
+header{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+}
+.logo{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.nav{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2; 
+    margin-top: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    float: right;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+    font-style: normal bold;
+    font-size: 20px;
+    grid: 6;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.footer {
+}
+
+.column{
+    font-family: 'Istok Web', sans-serif;
+    font-size: 12px;
+    text-align:justify;
+}
