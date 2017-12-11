@@ -3,11 +3,25 @@ header{
     grid-template-columns: 2fr 1fr;
     grid-template-rows: auto;
 }
+
+ header a:active{
+   text-decoration: underline !important;
+ }
+ 
+ header a:hover{
+   text-decoration: underline !important;
+ }
+ 
+ div.folder.active{
+   text-decoration: underline !important;
+ }
+
 .logo{
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
+    margin: 10px 0px 0px 30px;
 }
 .nav{
     grid-column-start: 2;
@@ -44,8 +58,194 @@ li a {
 .footer {
 }
 
+/* index styles start here! */
+
 .column{
     font-family: 'Istok Web', sans-serif;
     font-size: 12px;
     text-align:justify;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: plum;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.grid {
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: auto ;
+    grid-column-gap: 40px ;
+    background-color:#e1e1e1;
+}
+
+.column {
+
+    background-color:#e1e1e1;
+    padding: 25px;
+
+}
+
+
+/Menu/
+
+.h2{
+    font-size: 30px;
+    font-family: 'Istok Web', sans-serif;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color: plum;
+}
+
+
+table { 
+    width: 830px; 
+    border-collapse: collapse; 
+    margin:20px 10px;
+    font-family: 'Istok Web', sans-serif;
+}
+
+td, th { 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    text-align: center; 
+    font-size: 16px;
+}
+
+.labels tr td {
+    background-color: plum;
+    font-weight: bold;
+    color: #fff;
+}
+
+.label tr td label {
+    display: block;
+}
+
+
+[data-toggle="toggle"] {
+    display: none;
+}
+
+.info3{
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: auto ;
+    grid-column-gap: 0px ;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 12px;
+    text-align: justify;
+
+}
+
+.info4 {
+    margin: auto;
+    padding: 0px 10px 40px 10px;
+
+
+}
+/Location\
+
+
+
+.img{
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: auto ;
+    grid-column-gap: 40px ;
+
+}
+.img2{
+    padding: 50px 10px 10px 20px;
+    margin: 10px 20px 10px 45px;
+    align-content: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+.info {
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: auto ;
+    grid-column-gap: 0px ;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.info2 {
+    margin: auto;
+    padding: 0px 10px 60px 10px;
+
+
+}
+
+.form{
+    font-family: 'Istok Web', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    padding: 50px 10px 10px 20px;
+    margin: 10px 20px 10px 45px;
+    align-content: center;
+
+}
+.p3{
+    text-align: center;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    padding: 30px 0px 0px 220px;
+    margin: 10px 0px 10px 45px;
+}
+
+.input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.img3{
+    padding: 50px 10px 10px 20px;
+    margin: 10px;
+}
+
+.info2{
+    display: flow;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    padding: 0px 0px 0px 220px;
+    margin: 0px 20px 20px 5px;
 }
